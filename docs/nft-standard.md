@@ -140,7 +140,7 @@ Some of them are:
 - `max_value: Number` - if the `value` is also a number, it will be displayed as a bar chart with a maximum value
 - `trait_count: Number` - if the asset is part of a collection, this number represents the total count of other assets with the same trait type and value
 
-The only mandatory fields to describe an attribute are: `trait_type` and `trait_value`.
+The only mandatory fields to describe an attribute are: `trait_type` and `value`.
 
 #### Order of JSON fields
 Since you wallet will give users a direct link to the JSON file, it is recommended to keep the order of fields same as in the reference, so as to maintain good human readability of its contents.
